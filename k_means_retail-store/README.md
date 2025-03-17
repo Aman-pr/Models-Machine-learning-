@@ -70,13 +70,13 @@ These libraries are pre-installed in Google Colab. No additional setup is requir
 
 ### 1. Optimal Cluster Analysis  
 The Elbow Method and Silhouette Score analysis determine the optimal number of clusters (e.g., **5 clusters**):  
-![Elbow Method](images/elbow_plot.png)  
+![Elbow Method Plot](images/Elbow%20Method%20Plot.png)  
 
 ---
 
 ### 2. Customer Segmentation Visualization  
 Clusters visualized by `Annual Income` vs. `Spending Score`:  
-![Clusters](images/clusters.png)  
+![Customer Clusters](images/Customer%20Clusters%20Visualization.png)  
 
 ---
 
