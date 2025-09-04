@@ -38,61 +38,49 @@ The dataset used is `loan_data.csv` with the following features:
 
 The XGBoost model was selected as the final model due to its superior performance.
 
+
 ### XGBoost Performance
 - **Accuracy**: 93.66%  
 - **Confusion Matrix**:  
+[6794 196]<br>
+[ 375 1635]
 - **Classification Report**:  
   - Class 0 – Precision: 0.95, Recall: 0.97, F1-score: 0.96  
   - Class 1 – Precision: 0.89, Recall: 0.81, F1-score: 0.85  
 
 ## Feature Importance
-![Feature Importance](feature_importance.png)
+![Feature Importance](loan_prediction_model-main/Images/ROC_curve.png)
+
 
 ## ROC Curve
-![ROC Curve](roc_curve.png)
-
+![ROC Curve](loan_prediction_model-main/Images/XGBost.png)
+ 
 ## Installation
 1. Clone the repository:  
-```bash
-git clone "https://github.com/Aman-pr/Project-Machine-learning-/new/main/loan_prediction_model-main"
-Install dependencies:
+- `git clone "https://github.com/Aman-pr/Project-Machine-learning-/new/main/loan_prediction_model-main `
 
-pip install pandas scikit-learn xgboost matplotlib
+2.Install dependencies:
+- `pip install pandas scikit-learn xgboost matplotlib `
 
+3.Run the Jupyter notebook:
+- `jupyter notebook Loanprediction_model.ipynb`
 
-Run the Jupyter notebook:
-
-jupyter notebook Loanprediction_model.ipynb
-
-Model Serialization
+## Model Serilization
 
 The trained XGBoost model is saved as xgboost_model.pkl using pickle for future use.
 
-Usage Example
-import pickle
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
+## Project Structure 
 
-# Load the trained model
-with open('xgboost_model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+loan-prediction-model
 
-# Prepare new data (apply same preprocessing steps as in the notebook)
-# ...
+```├── Loanprediction_model.ipynb```<br>
+```├── loan_data.csv```<br>
+```├── xgboost_model.pkl```<br>
+```├── feature_importance.png```<br>
+```├── roc_curve.png```<br>
+```└── README.md```<br>
 
-# Make predictions
-predictions = model.predict(new_data)
-
-Project Structure
-loan-prediction-model/
-├── Loanprediction_model.ipynb
-├── loan_data.csv
-├── xgboost_model.pkl
-├── feature_importance.png
-├── roc_curve.png
-└── README.md
-
-Conclusion
+# Conclusion
 
 The XGBoost model demonstrated the best performance with 93.66% accuracy. It can assist financial institutions in making informed loan approval decisions, reducing risk, and improving efficiency.
 
@@ -108,4 +96,5 @@ Development of a web-based interface for real-time predictions
 
 Integration with real-time data sources for more accurate predictions
 
-License
+# License
+This project is licensed under the MIT License.
