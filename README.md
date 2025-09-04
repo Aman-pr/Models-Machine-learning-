@@ -35,6 +35,19 @@ Three machine learning projects demonstrating practical implementations of class
 - Silhouette score validation (0.45)  
 - 5 distinct customer segments  
 
+
+
+---
+
+### 4. Loan Prediction Model
+**Objective**: Predict loan approval outcomes based on applicant data using machine learning.  
+**Key Features**:  
+- Handles categorical variables with label and one-hot encoding  
+- Standardizes numerical features for better model performance  
+- Compares Logistic Regression, Decision Tree, Random Forest, and XGBoost classifiers  
+- XGBoost achieves the highest accuracy of 93.66%  
+- Provides feature importance and ROC curve visualizations
+
  
 
 ---
