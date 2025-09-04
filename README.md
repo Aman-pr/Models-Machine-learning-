@@ -59,7 +59,8 @@ Three machine learning projects demonstrating practical implementations of class
    - [![Open Credit Card Fraud Detection in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aman-pr/Indo-Machine-learning-/blob/main/Credit%20card%20fraud%20detection/credit_card_spam_detection.ipynb)
    - [![Open Movie Genre Classification in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aman-pr/Indo-Machine-learning-/blob/main/Movie_ticket/Movie_gener.ipynb)
    - [![Open Customer Segmentation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aman-pr/Indo-Machine-learning-/blob/main/k_means_retail-store/k_means_retail_store.ipynb)
-   - [![Open Customer Segmentation in Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/Aman-pr/Indo-Machine-learning-/blob/main/k_means_retail-store/k_means_retail_store.ipynb](https://github.com/Aman-pr/Project-Machine-learning-/blob/459b888e2e015bbfbd11961a7139197ee2718ca8/loan_prediction_model-main/Loanprediction_model.ipynb))
+   - [![Open Loan Prediction Model in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Aman-pr/Project-Machine-learning-/blob/459b888e2e015bbfbd11961a7139197ee2718ca8/loan_prediction_model-main/Loanprediction_model.ipynb)
+
 
 2. **Upload Datasets**:
    ```python
