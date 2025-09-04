@@ -1,4 +1,4 @@
-# Indo Machine Learning Projects
+# Machine Learning Projects
 
 Three machine learning projects demonstrating practical implementations of classification and clustering algorithms.
 
