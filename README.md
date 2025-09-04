@@ -63,21 +63,24 @@ Three machine learning projects demonstrating practical implementations of class
 
 
 2. **Upload Datasets**:
-   ```python
-   # In Colab notebook cells:
-   from google.colab import files
-   uploaded = files.upload()  # Select relevant dataset file
+python
+# In Colab notebook cells:
+from google.colab import files
+uploaded = files.upload()  # Select relevant dataset file
 
-# Genre Classification
+# Credit Card Fraud Detection
+jupyter notebook "Credit card fraud detection/credit_card_spam_detection.ipynb"
+
+# Movie Genre Classification
 jupyter notebook "Movie_ticket/Movie_gener.ipynb"
 
 # Customer Segmentation
 jupyter notebook "k_means_retail-store/k_means_retail_store.ipynb"
 
-# Credit card fraud detection
-jupyter notebook "Credit card fraud detection/credit_card_spam_detection.ipynb"
+# Loan Prediction Model
+jupyter notebook "loan_prediction_model-main/Loanprediction_model.ipynb"
 
----
+
 
 ### Key Features:
 1. **Repository-Specific**: Includes your GitHub URL and project structure
